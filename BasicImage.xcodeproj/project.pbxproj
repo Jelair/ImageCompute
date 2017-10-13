@@ -17,6 +17,11 @@
 		170EB8881F8FCED100BB0E75 /* KDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170EB8871F8FCED100BB0E75 /* KDView.m */; };
 		170EB88B1F8FCFDF00BB0E75 /* KEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170EB88A1F8FCFDF00BB0E75 /* KEView.m */; };
 		170EB88E1F8FDC0F00BB0E75 /* KFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170EB88D1F8FDC0F00BB0E75 /* KFView.m */; };
+		174B436D1F905B140093F0BA /* beaty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174B436C1F905B140093F0BA /* beaty.jpg */; };
+		174B43701F906C5E0093F0BA /* KGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 174B436F1F906C5E0093F0BA /* KGView.m */; };
+		17B37F501F91068A00ACE49B /* KHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B37F4F1F91068A00ACE49B /* KHView.m */; };
+		17B37F541F910D3200ACE49B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B37F531F910D3200ACE49B /* MainViewController.m */; };
+		17B37F571F9124CE00ACE49B /* MeiTuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B37F561F9124CE00ACE49B /* MeiTuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,15 @@
 		170EB88A1F8FCFDF00BB0E75 /* KEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEView.m; sourceTree = "<group>"; };
 		170EB88C1F8FDC0F00BB0E75 /* KFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFView.h; sourceTree = "<group>"; };
 		170EB88D1F8FDC0F00BB0E75 /* KFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFView.m; sourceTree = "<group>"; };
+		174B436C1F905B140093F0BA /* beaty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beaty.jpg; sourceTree = "<group>"; };
+		174B436E1F906C5E0093F0BA /* KGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGView.h; sourceTree = "<group>"; };
+		174B436F1F906C5E0093F0BA /* KGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGView.m; sourceTree = "<group>"; };
+		17B37F4E1F91068A00ACE49B /* KHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHView.h; sourceTree = "<group>"; };
+		17B37F4F1F91068A00ACE49B /* KHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHView.m; sourceTree = "<group>"; };
+		17B37F521F910D3200ACE49B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		17B37F531F910D3200ACE49B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		17B37F551F9124CE00ACE49B /* MeiTuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeiTuViewController.h; sourceTree = "<group>"; };
+		17B37F561F9124CE00ACE49B /* MeiTuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeiTuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,15 +84,14 @@
 		170EB86A1F8FC1D200BB0E75 /* BasicImage */ = {
 			isa = PBXGroup;
 			children = (
+				174B436C1F905B140093F0BA /* beaty.jpg */,
 				170EB86E1F8FC1D200BB0E75 /* AppDelegate.h */,
 				170EB86F1F8FC1D200BB0E75 /* AppDelegate.m */,
-				170EB8711F8FC1D200BB0E75 /* ViewController.h */,
-				170EB8721F8FC1D200BB0E75 /* ViewController.m */,
+				17B37F511F910C1B00ACE49B /* ViewControllers */,
 				170EB8851F8FCEB700BB0E75 /* Views */,
 				170EB8741F8FC1D200BB0E75 /* Main.storyboard */,
 				170EB8771F8FC1D200BB0E75 /* Assets.xcassets */,
 				170EB8791F8FC1D200BB0E75 /* LaunchScreen.storyboard */,
-				170EB87C1F8FC1D200BB0E75 /* Info.plist */,
 				170EB86B1F8FC1D200BB0E75 /* Supporting Files */,
 			);
 			path = BasicImage;
@@ -87,6 +100,7 @@
 		170EB86B1F8FC1D200BB0E75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				170EB87C1F8FC1D200BB0E75 /* Info.plist */,
 				170EB86C1F8FC1D200BB0E75 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -103,8 +117,25 @@
 				170EB88A1F8FCFDF00BB0E75 /* KEView.m */,
 				170EB88C1F8FDC0F00BB0E75 /* KFView.h */,
 				170EB88D1F8FDC0F00BB0E75 /* KFView.m */,
+				174B436E1F906C5E0093F0BA /* KGView.h */,
+				174B436F1F906C5E0093F0BA /* KGView.m */,
+				17B37F4E1F91068A00ACE49B /* KHView.h */,
+				17B37F4F1F91068A00ACE49B /* KHView.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		17B37F511F910C1B00ACE49B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				170EB8711F8FC1D200BB0E75 /* ViewController.h */,
+				170EB8721F8FC1D200BB0E75 /* ViewController.m */,
+				17B37F521F910D3200ACE49B /* MainViewController.h */,
+				17B37F531F910D3200ACE49B /* MainViewController.m */,
+				17B37F551F9124CE00ACE49B /* MeiTuViewController.h */,
+				17B37F561F9124CE00ACE49B /* MeiTuViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +199,7 @@
 			files = (
 				170EB87B1F8FC1D200BB0E75 /* LaunchScreen.storyboard in Resources */,
 				170EB8781F8FC1D200BB0E75 /* Assets.xcassets in Resources */,
+				174B436D1F905B140093F0BA /* beaty.jpg in Resources */,
 				170EB8761F8FC1D200BB0E75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,12 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174B43701F906C5E0093F0BA /* KGView.m in Sources */,
 				170EB8841F8FC24500BB0E75 /* KCView.m in Sources */,
+				17B37F501F91068A00ACE49B /* KHView.m in Sources */,
+				17B37F541F910D3200ACE49B /* MainViewController.m in Sources */,
 				170EB8731F8FC1D200BB0E75 /* ViewController.m in Sources */,
 				170EB88B1F8FCFDF00BB0E75 /* KEView.m in Sources */,
 				170EB88E1F8FDC0F00BB0E75 /* KFView.m in Sources */,
 				170EB8701F8FC1D200BB0E75 /* AppDelegate.m in Sources */,
 				170EB86D1F8FC1D200BB0E75 /* main.m in Sources */,
+				17B37F571F9124CE00ACE49B /* MeiTuViewController.m in Sources */,
 				170EB8881F8FCED100BB0E75 /* KDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +380,7 @@
 				170EB8811F8FC1D200BB0E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

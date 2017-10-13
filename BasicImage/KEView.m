@@ -24,7 +24,8 @@
     //[self drawEllipse:context];
     //[self drawArc:context];
     //[self drawCurve:context];
-    [self drawText:context];
+    //[self drawText:context];
+    [self drawImage:context];
 }
 
 #pragma mark 绘制矩形
@@ -129,7 +130,7 @@
 
 #pragma mark 绘制图像
 - (void)drawImage:(CGContextRef)context{
-    UIImage *image = [UIImage imageNamed:@""];
+    UIImage *image = [UIImage imageNamed:@"beaty.jpg"];
     //从某一点开始绘制
     [image drawAtPoint:CGPointMake(10, 50)];
     //绘制到指定的矩形中，注意如果大小不合适会进行拉伸
