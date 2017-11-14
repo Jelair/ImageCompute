@@ -18,7 +18,7 @@
 }
 
 @end
-
+// 调整亮度、饱和度、对比度
 @implementation MeiTuViewController
 
 - (void)viewDidLoad {
@@ -113,6 +113,7 @@
 - (void)savePhoto:(UIBarButtonItem *)btn{
     UIImageWriteToSavedPhotosAlbum(_imageView.image, nil, nil, nil);
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"System Info" message:@"Save Success!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+    
     [alert show];
 }
 
